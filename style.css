@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  color: #222;
+}
+
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.box {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+button {
+  background: #ff6b6b;
+  border: none;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.payment-box {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.payment-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
